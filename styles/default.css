@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'FormationSansRegular';
+    src: url("../fonts/formationsans-webfont.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    /* src: url(../fonts/rajdhani-latin-300-normal.woff2) format('woff2'); */
+    src: url(../fonts/rajdhani-latin-300-normal.woff) format('woff');
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url("../fonts/Shabnam.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    line-height: 2;
+    font-size: 0.460em;
+    box-sizing: border-box;
+    font-family: "shabnam", sans-serif;
+}
+
+body {
+    direction: rtl;
+    font-size: 1.5rem;
+    color: #000000b0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000b0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: shabnam, sans-serif;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+select {
+    background-color: inherit;
+    padding: 0;
+    border: none;
+    cursor: inherit;
+    width: 100%;
+    font-size: initial;
+}
+
+textarea {
+    resize: vertical;
+}
+
+@keyframes spn {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@media (min-width: 600px) {
+    html {
+        font-size: 0.5417em;
+    }
+}
+
+@media (min-width: 993px) {
+    html {
+        font-size: 0.625em;
+    }
+}
+
+/* 
+    font-size: 0.625em;//برای دسکتاپ
+    font-size: 0.5417em;//برای تب لت
+    font-size: 0.460em;//برای موبایل
+*/

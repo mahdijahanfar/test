@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/default.css">
+    <!-- <link rel="shortcut icon" href="images/streacom_logo.svg" type="image/x-icon"> -->
+</head>
+
+<body>
+    <!-- <nav class="main-menu">
+        <ul>
+            <li><a href="#">آموزش وردپرس <i class="fas fa-angle-down"></i> </a> </li>
+            <li><a href="#"> آموزش ووکامرس </a> </li>
+            <li><a href="#"> آموزش php <i class="fas fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">آموزش مقدماتی</a> </li>
+                    <lhi><a href="#">آموزش فانکشنال</a>
+            </li>
+            <li><a href="#">آموزش شی گرایی</a> </li>
+            <li><a href="#">آموزش معماری mvc</a> </li>
+            <li><a href="#">آموزش لاراول</a> </li>
+        </ul>
+        </li>
+        <li><a href="#"> آموزش خدمات </a> </li>
+        </ul>
+    </nav> -->
+    <header>
+        <img class="logo" src="./images/streacom_logo.svg" alt="">
+        <div class="headerMenu">
+            <svg class="burgerMenu" width="5rem" height="5rem" viewBox="0 0 24 24" fill="none">
+                <g>
+                    <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#cccccc" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <ul class="headerMenu_list">
+                <li class="headerMenu_li">
+                    <a class="headerMenu_items" href="#">
+                        محصولات
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul aria-label="hasSubList" class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                کیس ها (فعال)
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                کیس ها (بدون فن)
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                منابع تغذیه
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                لوازم جانبی
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                تولیدات EOL
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2 (v1)</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 (v1)</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک (v1)</a>
+
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 - Screw Kit</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F1C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F7C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F12C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">NC1</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        اخبار
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">از ما</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">از دیگران</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        شعبات
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">فروشگاه ما</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">آسیا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">آمریکا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">اروپا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">اقیانوسیه</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        درباره ما
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">مرحله</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">سابقه</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">خدمات</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">Q&A</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">ارتباط با ما</a></li>
+            </ul>
+            <div class="searchIcon">
+                <svg fill="#b7b4b4" class="searchIcon_svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14">
+                    </path>
+                </svg>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section id="productHeader" class="productHeader">
+            <h2 class="productHeader_name">SG10</h2>
+            <p class="productHeader_descript">Fanless Gaming PC Case</p>
+        </section>
+
+
+        <div class="firstSection">
+            <section class="swipperWrapper">
+                <div class="swipper"></div>
+                <div class="handIconWrapper">
+                    <img class="handIcon handIcon-off" src="images/360-swipe.svg">
+                    <img class="handIcon dispNone hidden" src="images/360-swipe_on.svg">
+                </div>
+            </section>
+            <section class="swipperDescription">
+                SG10 یک محصول بلندپروازانه است که برای جابجایی از مرزهای فناوری بدون فن و ایجاد یک کیس گیمینگ با قابلیت
+                خنک کردن CPU و GPUهای با کارایی بالا بدون فن طراحی شده است. این همکاری بین Streacom و Calyos همچنین با
+                هدف نمایش کاربرد فن‌آوری لوله‌های حرارتی حلقه‌ای در خنک‌سازی رایانه شخصی است و نشان‌دهنده اولین گام در
+                ایجاد یک جریان اصلی جایگزین حالت جامد با کارایی بالا برای راه‌حل‌های خنک‌کننده آبی است.
+                <br>
+                <br>
+                معرفی SG10 بدون اشاره به NSGS0 که به عنوان یک پروژه Kickstarter توسط Calyos در سال 2018 راه اندازی شد،
+                درست نیست. این جانشین معنوی آن بود و در حالی که به بازار نیامد، پروژه را به حرکت درآورد. SG10 نمایانگر
+                یک طراحی مجدد کامل از آن پیشنهاد اولیه است، که برای برآورده کردن نیازهای خنک‌کننده بسیار بالاتر
+                سخت‌افزار نسل فعلی و ارائه چشم‌انداز «قاب رایانه‌های شخصی بدون فن» ضروری بود.
+                <br>
+                <br>
+                SG10 می تواند 600 وات خنک کننده کل ترکیبی را بدون هیچ فن یا قطعات متحرکی برای CPU و GPU فراهم کند. SG10
+                از نوعی فناوری خنک کننده تغییر فاز به نام Loop Heat Pipe (LHP) برای ارائه این عملکرد بی نظیر استفاده می
+                کند. بر خلاف لوله های حرارتی سنتی، که در آن تغییر فاز سیال کار در جهت های مخالف در داخل لوله اتفاق می
+                افتد، چرخه تغییر فاز LHP در یک جریان پیوسته در اطراف حلقه رخ می دهد و به طور قابل توجهی عملکرد را بهبود
+                می بخشد.
+                <br>
+                <br>
+                در حالی که لوله های حرارتی حلقه مفهوم جدیدی نیستند، چیزی که جدید است و این LHP را متمایز می کند، طراحی
+                اختراع شده اواپراتور توسعه یافته توسط Calyos و کندانسور بسیار بهینه طراحی شده توسط Streacom است. این
+                همکاری و توانایی ترکیب تخصص طراحی و ساخت برای توسعه آن حیاتی و اساسی بود.
+                <br>
+                <br>
+                فراتر از عملکرد پیشگامانه خنک کننده بدون فن، کیس یک قطعه مهندسی چشمگیر است. این یک طرح صنعتی کاربردی با
+                ظاهری پررنگ و زاویه‌دار است که کنتراست تازه‌ای از روند معمولی «RGB Fan ring» روی کیس رایانه شخصی دارد.
+                این سازه ترکیبی از آلومینیوم ماشینکاری شده با روکش آنودایز سندبلاست معروف ما با ساختار پشتیبانی فولادی و
+                پانل‌های شیشه سکوریت شده است که سخت‌افزار و فناوری خنک‌کننده داخل را به نمایش می‌گذارد.
+                <br>
+                <br>
+                بسیاری از ویژگی‌های منحصربه‌فرد دیگر این کیس را خاص می‌کنند، مانند مادربرد کاملاً قابل تنظیم مورب و
+                سیستم نصب GPU یا پنل‌های IO مدولار که می‌توانند در هر جایی در جلو یا پشت کیس قرار بگیرند (که در واقع
+                متقارن هستند). سازگاری همچنین با رویکرد ماژولار برای خنک‌سازی GPU که امکان پشتیبانی گسترده‌تر از
+                برند/مدل را در طول زمان فراهم می‌کند، ملاحظات مهمی بوده است.
+                <br>
+                <br>
+                دسته تولید اولیه به طور کامل شامل نسخه محدود مسی SG10 خواهد بود و تمام موارد بعدی در رنگ های نقره
+                ای/مشکی یا تمام مشکی دو رنگ موجود است.
+            </section>
+        </div>
+        <nav class="midNav">
+            <svg class="burgerMenu" width="5rem" height="5rem" viewBox="0 0 24 24" fill="none">
+                <g>
+                    <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#cccccc" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <ul class="midNav_list">
+                <li class="midNavLink-li midNavLink-li__selected">
+                    <a class="midNavLink" href="#productHeader">
+                        مقدمه
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#overview">
+                        نمای کلی
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#productHeader2">
+                        ویژگیها
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#productHeader2">
+                        رسانه
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#productHeader2">
+                        پشتیبانی
+                    </a>
+                </li>
+                <div class="blueUnderline"></div>
+            </ul>
+            <a class="midNavLink midNavLink__preOrder" href="#">
+                <svg fill="#fff" height="2rem" width="3rem" viewBox="0 0 512 512">
+
+                    <g id="SVGRepo_iconCarrier">
+                        <g>
+                            <path
+                                d="M192,368c-35.297,0-64,28.703-64,64c0,35.297,28.703,64,64,64c35.297,0,64-28.703,64-64 C256.001,396.703,227.297,368,192,368z">
+                            </path>
+                            <path
+                                d="M416.001,368c-35.297,0-64,28.703-64,64c0,35.297,28.703,64,64,64c35.297,0,64-28.703,64-64 C480.001,396.703,451.298,368,416.001,368z">
+                            </path>
+                            <path
+                                d="M504.423,91.312C498.345,84.14,489.407,80,480.001,80H152.985l-9.938-39.766c-0.188-0.742-0.523-1.391-0.758-2.102 c-0.367-1.125-0.711-2.242-1.195-3.305c-0.414-0.914-0.93-1.758-1.422-2.625c-0.531-0.93-1.047-1.859-1.664-2.734 c-0.602-0.844-1.289-1.602-1.961-2.375c-0.68-0.781-1.336-1.555-2.078-2.266c-0.75-0.703-1.555-1.313-2.359-1.945 c-0.813-0.633-1.609-1.273-2.477-1.828c-0.883-0.563-1.813-1.016-2.742-1.492c-0.891-0.453-1.766-0.914-2.703-1.289 c-1.078-0.422-2.188-0.719-3.305-1.023c-0.859-0.234-1.695-0.5-2.586-0.664c-1.297-0.242-2.633-0.32-3.969-0.398 C113.211,16.148,112.625,16,112,16H32C14.328,16,0,30.328,0,48s14.328,32,32,32h55.016l9.641,38.578l31.781,190.688 C131,324.687,144.36,336,160,336h288.001c15.641,0,29-11.313,31.563-26.734l32-192C513.111,107.984,510.501,98.5,504.423,91.312z M224,272c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M288,272 c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M352,272c0,8.844-7.156,16-16,16 s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M416,272c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112 c0-8.844,7.156-16,16-16s16,7.156,16,16V272z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                پیش سفارش
+            </a>
+        </nav>
+        <section id="overview" class="overview">
+            <nav class="overviewNav">
+                <h2>نمای کلی</h2>
+                <ul class="overviewList">
+                    <li class="overviewLi">
+                        ابعاد
+                    </li>
+                    <li class="overviewLi">
+                        مشخصات
+                    </li>
+
+                    <li class="overviewLi">
+                        گالری
+                    </li>
+                    <div class="blueUnderline"></div>
+                </ul>
+            </nav>
+            <div class="overview_body">
+
+            </div>
+        </section>
+        <section id="features" class="features">
+            <nav class="featuresNav">
+                <h2>ویژگی ها</h2>
+                <ul class="featuresList">
+                    <li class="featuresLi">
+                        LHP
+                    </li>
+                    <li class="featuresLi">
+                        X-Frame
+                    </li>
+                    <li class="featuresLi">
+                        CPU
+                    </li>
+                    <li class="featuresLi">
+                        GPU
+                    </li>
+                    <li class="featuresLi">
+                        >600
+                    </li>
+                    <li class="featuresLi">
+                        ماژول ها
+                    </li>
+                    <li class="featuresLi">
+                        جهانی
+                    </li>
+                    <div class="blueUnderline"></div>
+                </ul>
+            </nav>
+            <div class="features_body">
+                <img class="features_img">
+                <div>
+                    <h2></h2>
+                    <p class="features_description"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- <script type="text/javascript" src="viewer/sprintes.min.js"></script><br> -->
+    <script src='viewer/sprintes.js' type='text/javascript'></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
