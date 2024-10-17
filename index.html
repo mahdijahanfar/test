@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/nav-core.min.css">
+    <link rel="stylesheet" href="./styles/nav-layout.min.css">
+    <link rel="stylesheet" href="./styles/default.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/swiper.css">
+    <!-- <link rel="shortcut icon" href="images/streacom_logo.svg" type="image/x-icon"> -->
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/streacom_logo.svg">
+        <div class="headerMenu">
+
+            <a href="#" class="nav-button">Menu</a>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="nav-submenu"><a href="#">Services</a>
+                        <ul>
+                            <li><a href="#">Some Service</a></li>
+                            <li><a href="#">Another Service</a></li>
+                            <li><a href="#">Good Service</a></li>
+                            <li><a href="#">Room Service</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-submenu"><a href="#">Products</a>
+                        <ul>
+                            <li><a href="#">Food</a></li>
+                            <li class="nav-submenu"><a href="#">Drinks</a>
+                                <ul>
+                                    <li><a href="#">Water</a></li>
+                                    <li class="nav-submenu"><a href="#">Cola</a>
+                                        <ul>
+                                            <li class="nav-submenu nav-left"><a href="#">Coca Cola</a>
+                                                <ul>
+                                                    <li><a href="#">This one goes left!</a></li>
+                                                    <li><a href="#">Too much sugar...</a></li>
+                                                    <li><a href="#">Yummy</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Pepsi</a></li>
+                                            <li><a href="#">River</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Lemonade</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Candy</a></li>
+                            <li><a href="#">Ice Cream</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-submenu"><a href="#">Albums</a>
+                        <ul>
+                            <li><a href="#">Christmas</a></li>
+                            <li><a href="#">New Year</a></li>
+                            <li><a href="#">Easter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- <svg class="burgerMenu" width="5rem" height="5rem" viewBox="0 0 24 24" fill="none">
+                <g>
+                    <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#cccccc" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <ul class="headerMenu_list">
+                <li class="headerMenu_li">
+                    <a class="headerMenu_items" href="#">
+                        محصولات
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul aria-label="hasSubList" class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                کیس ها (فعال)
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                کیس ها (بدون فن)
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                منابع تغذیه
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                لوازم جانبی
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA6</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="underlist_li">
+                            <a class="underlist_items" href="#">
+                                <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem"
+                                    viewBox="0 0 24 24">
+
+
+                                    <g id="SVGRepo_iconCarrier">
+                                        <g>
+                                            <path
+                                                d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                                تولیدات EOL
+                            </a>
+                            <ul class="hidden dispNone layer2Underlist">
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">DA2 (v1)</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 (v1)</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 سایز کوچک (v1)</a>
+
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">BC1 - Screw Kit</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F1C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F7C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">F12C</a>
+                                </li>
+                                <li class="layer2Underlist_li">
+                                    <a class="layer2Underlist_items" href="#">NC1</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        اخبار
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">از ما</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">از دیگران</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        شعبات
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">فروشگاه ما</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">آسیا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">آمریکا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">اروپا</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">اقیانوسیه</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                        درباره ما
+                        <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                            viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <path
+                                        d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <ul class="hidden dispNone headerMenu_underlist">
+                        <li class="underlist_li"><a class="underlist_items" href="#">مرحله</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">سابقه</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">خدمات</a></li>
+                        <li class="underlist_li"><a class="underlist_items" href="#">Q&A</a></li>
+                    </ul>
+                </li>
+                <li class="headerMenu_li"><a class="headerMenu_items" href="#">ارتباط با ما</a></li>
+            </ul> -->
+            <div class="searchIcon">
+                <svg fill="#b7b4b4" class="searchIcon_svg" viewBox="0 0 24 24">
+                    <path
+                        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <ul class="headerMenu_list headerMenu_list--mobile">
+            <li class="headerMenu_li">
+                <a class="headerMenu_items" href="#">
+                    محصولات
+                    <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                        viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <ul aria-label="hasSubList" class="hidden dispNone headerMenu_underlist">
+                    <li class="underlist_li">
+                        <a class="underlist_items" href="#">
+                            <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem" viewBox="0 0 24 24">
+
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path
+                                            d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            کیس ها (فعال)
+                        </a>
+                        <ul class="hidden dispNone layer2Underlist">
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA6</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA2</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="underlist_li">
+                        <a class="underlist_items" href="#">
+                            <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem" viewBox="0 0 24 24">
+
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path
+                                            d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            کیس ها (بدون فن)
+                        </a>
+                        <ul class="hidden dispNone layer2Underlist">
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA6</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA2</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="underlist_li">
+                        <a class="underlist_items" href="#">
+                            <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem" viewBox="0 0 24 24">
+
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path
+                                            d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            منابع تغذیه
+                        </a>
+                        <ul class="hidden dispNone layer2Underlist">
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA6</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA2</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="underlist_li">
+                        <a class="underlist_items" href="#">
+                            <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem" viewBox="0 0 24 24">
+
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path
+                                            d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            لوازم جانبی
+                        </a>
+                        <ul class="hidden dispNone layer2Underlist">
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA6</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA2</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 سایز کوچک</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="underlist_li">
+                        <a class="underlist_items" href="#">
+                            <svg class="flashesRight" fill="#b7b4b4" width="2rem" height="3.2rem" viewBox="0 0 24 24">
+
+
+                                <g id="SVGRepo_iconCarrier">
+                                    <g>
+                                        <path
+                                            d="M15.146 12.354l-5.792 5.792a.5.5 0 01-.854-.353V6.207a.5.5 0 01.854-.353l5.792 5.792a.5.5 0 010 .708z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            تولیدات EOL
+                        </a>
+                        <ul class="hidden dispNone layer2Underlist">
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">DA2 (v1)</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 (v1)</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 سایز کوچک (v1)</a>
+
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">BC1 - Screw Kit</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">F1C</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">F7C</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">F12C</a>
+                            </li>
+                            <li class="layer2Underlist_li">
+                                <a class="layer2Underlist_items" href="#">NC1</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                    اخبار
+                    <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                        viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <ul class="hidden dispNone headerMenu_underlist">
+                    <li class="underlist_li"><a class="underlist_items" href="#">از ما</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">از دیگران</a></li>
+                </ul>
+            </li>
+            <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                    شعبات
+                    <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                        viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <ul class="hidden dispNone headerMenu_underlist">
+                    <li class="underlist_li"><a class="underlist_items" href="#">فروشگاه ما</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">آسیا</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">آمریکا</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">اروپا</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">اقیانوسیه</a></li>
+                </ul>
+            </li>
+            <li class="headerMenu_li"><a class="headerMenu_items" href="#">
+                    درباره ما
+                    <svg class="flashes" fill="#b7b4b4" width="1rem" height="1.6rem"
+                        viewBox="-48.17 -48.17 578.06 578.06">
+
+
+                        <g id="SVGRepo_iconCarrier">
+                            <g>
+                                <path
+                                    d="M10.467,146.589l198.857,252.903c17.418,30.532,45.661,30.532,63.079,0l198.839-252.866 c3.88-5.533,8.072-15.41,8.923-22.118c2.735-21.738,4.908-65.178-21.444-65.178H23.013c-26.353,0-24.192,43.416-21.463,65.147 C2.395,131.185,6.587,141.051,10.467,146.589z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <ul class="hidden dispNone headerMenu_underlist">
+                    <li class="underlist_li"><a class="underlist_items" href="#">مرحله</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">سابقه</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">خدمات</a></li>
+                    <li class="underlist_li"><a class="underlist_items" href="#">Q&A</a></li>
+                </ul>
+            </li>
+            <li class="headerMenu_li"><a class="headerMenu_items" href="#">ارتباط با ما</a></li>
+        </ul>
+    </header>
+    <main>
+
+        <section id="productHeader" class="productHeader">
+            <h2 class="productHeader_name">SG10</h2>
+            <p class="productHeader_descript">Fanless Gaming PC Case</p>
+        </section>
+
+
+        <div class="firstSection">
+            <section class="swipperWrapper">
+                <div class="swipper"></div>
+                <div class="handIconWrapper">
+                    <img class="handIcon handIcon-off" src="images/360-swipe.svg">
+                    <img class="handIcon dispNone hidden" src="images/360-swipe_on.svg">
+                </div>
+            </section>
+            <section class="swipperDescription">
+                SG10 یک محصول بلندپروازانه است که برای جابجایی از مرزهای فناوری بدون فن و ایجاد یک کیس گیمینگ با قابلیت
+                خنک کردن CPU و GPUهای با کارایی بالا بدون فن طراحی شده است. این همکاری بین Streacom و Calyos همچنین با
+                هدف نمایش کاربرد فن‌آوری لوله‌های حرارتی حلقه‌ای در خنک‌سازی رایانه شخصی است و نشان‌دهنده اولین گام در
+                ایجاد یک جریان اصلی جایگزین حالت جامد با کارایی بالا برای راه‌حل‌های خنک‌کننده آبی است.
+                <br>
+                <br>
+                معرفی SG10 بدون اشاره به NSGS0 که به عنوان یک پروژه Kickstarter توسط Calyos در سال 2018 راه اندازی شد،
+                درست نیست. این جانشین معنوی آن بود و در حالی که به بازار نیامد، پروژه را به حرکت درآورد. SG10 نمایانگر
+                یک طراحی مجدد کامل از آن پیشنهاد اولیه است، که برای برآورده کردن نیازهای خنک‌کننده بسیار بالاتر
+                سخت‌افزار نسل فعلی و ارائه چشم‌انداز «قاب رایانه‌های شخصی بدون فن» ضروری بود.
+                <br>
+                <br>
+                SG10 می تواند 600 وات خنک کننده کل ترکیبی را بدون هیچ فن یا قطعات متحرکی برای CPU و GPU فراهم کند. SG10
+                از نوعی فناوری خنک کننده تغییر فاز به نام Loop Heat Pipe (LHP) برای ارائه این عملکرد بی نظیر استفاده می
+                کند. بر خلاف لوله های حرارتی سنتی، که در آن تغییر فاز سیال کار در جهت های مخالف در داخل لوله اتفاق می
+                افتد، چرخه تغییر فاز LHP در یک جریان پیوسته در اطراف حلقه رخ می دهد و به طور قابل توجهی عملکرد را بهبود
+                می بخشد.
+                <br>
+                <br>
+                در حالی که لوله های حرارتی حلقه مفهوم جدیدی نیستند، چیزی که جدید است و این LHP را متمایز می کند، طراحی
+                اختراع شده اواپراتور توسعه یافته توسط Calyos و کندانسور بسیار بهینه طراحی شده توسط Streacom است. این
+                همکاری و توانایی ترکیب تخصص طراحی و ساخت برای توسعه آن حیاتی و اساسی بود.
+                <br>
+                <br>
+                فراتر از عملکرد پیشگامانه خنک کننده بدون فن، کیس یک قطعه مهندسی چشمگیر است. این یک طرح صنعتی کاربردی با
+                ظاهری پررنگ و زاویه‌دار است که کنتراست تازه‌ای از روند معمولی «RGB Fan ring» روی کیس رایانه شخصی دارد.
+                این سازه ترکیبی از آلومینیوم ماشینکاری شده با روکش آنودایز سندبلاست معروف ما با ساختار پشتیبانی فولادی و
+                پانل‌های شیشه سکوریت شده است که سخت‌افزار و فناوری خنک‌کننده داخل را به نمایش می‌گذارد.
+                <br>
+                <br>
+                بسیاری از ویژگی‌های منحصربه‌فرد دیگر این کیس را خاص می‌کنند، مانند مادربرد کاملاً قابل تنظیم مورب و
+                سیستم نصب GPU یا پنل‌های IO مدولار که می‌توانند در هر جایی در جلو یا پشت کیس قرار بگیرند (که در واقع
+                متقارن هستند). سازگاری همچنین با رویکرد ماژولار برای خنک‌سازی GPU که امکان پشتیبانی گسترده‌تر از
+                برند/مدل را در طول زمان فراهم می‌کند، ملاحظات مهمی بوده است.
+                <br>
+                <br>
+                دسته تولید اولیه به طور کامل شامل نسخه محدود مسی SG10 خواهد بود و تمام موارد بعدی در رنگ های نقره
+                ای/مشکی یا تمام مشکی دو رنگ موجود است.
+            </section>
+        </div>
+        <nav class="midNav">
+            <svg class="burgerMenu" width="5rem" height="5rem" viewBox="0 0 24 24" fill="none">
+                <g>
+                    <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#cccccc" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+            <ul class="midNav_list">
+                <li class="midNavLink-li midNavLink-li__selected">
+                    <a class="midNavLink" href="#productHeader">
+                        مقدمه
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#overview">
+                        نمای کلی
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#features">
+                        ویژگیها
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#media">
+                        رسانه
+                    </a>
+                </li>
+                <li class="midNavLink-li">
+                    <a class="midNavLink" href="#support">
+                        پشتیبانی
+                    </a>
+                </li>
+                <div class="blueUnderline"></div>
+            </ul>
+            <a class="midNavLink midNavLink__preOrder" href="#">
+                <svg fill="#fff" height="2rem" width="3rem" viewBox="0 0 512 512">
+
+                    <g id="SVGRepo_iconCarrier">
+                        <g>
+                            <path
+                                d="M192,368c-35.297,0-64,28.703-64,64c0,35.297,28.703,64,64,64c35.297,0,64-28.703,64-64 C256.001,396.703,227.297,368,192,368z">
+                            </path>
+                            <path
+                                d="M416.001,368c-35.297,0-64,28.703-64,64c0,35.297,28.703,64,64,64c35.297,0,64-28.703,64-64 C480.001,396.703,451.298,368,416.001,368z">
+                            </path>
+                            <path
+                                d="M504.423,91.312C498.345,84.14,489.407,80,480.001,80H152.985l-9.938-39.766c-0.188-0.742-0.523-1.391-0.758-2.102 c-0.367-1.125-0.711-2.242-1.195-3.305c-0.414-0.914-0.93-1.758-1.422-2.625c-0.531-0.93-1.047-1.859-1.664-2.734 c-0.602-0.844-1.289-1.602-1.961-2.375c-0.68-0.781-1.336-1.555-2.078-2.266c-0.75-0.703-1.555-1.313-2.359-1.945 c-0.813-0.633-1.609-1.273-2.477-1.828c-0.883-0.563-1.813-1.016-2.742-1.492c-0.891-0.453-1.766-0.914-2.703-1.289 c-1.078-0.422-2.188-0.719-3.305-1.023c-0.859-0.234-1.695-0.5-2.586-0.664c-1.297-0.242-2.633-0.32-3.969-0.398 C113.211,16.148,112.625,16,112,16H32C14.328,16,0,30.328,0,48s14.328,32,32,32h55.016l9.641,38.578l31.781,190.688 C131,324.687,144.36,336,160,336h288.001c15.641,0,29-11.313,31.563-26.734l32-192C513.111,107.984,510.501,98.5,504.423,91.312z M224,272c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M288,272 c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M352,272c0,8.844-7.156,16-16,16 s-16-7.156-16-16v-112c0-8.844,7.156-16,16-16s16,7.156,16,16V272z M416,272c0,8.844-7.156,16-16,16s-16-7.156-16-16v-112 c0-8.844,7.156-16,16-16s16,7.156,16,16V272z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                پیش سفارش
+            </a>
+            <div class="midNav_mobile_list_wraper">
+                <ul class="midNav_list--mobile">
+                    <li class="midNavLink-li midNavLink-li__selected">
+                        <a class="midNavLink" href="#productHeader">
+                            مقدمه
+                        </a>
+                    </li>
+                    <li class="midNavLink-li">
+                        <a class="midNavLink" href="#overview">
+                            نمای کلی
+                        </a>
+                    </li>
+                    <li class="midNavLink-li">
+                        <a class="midNavLink" href="#features">
+                            ویژگیها
+                        </a>
+                    </li>
+                    <li class="midNavLink-li">
+                        <a class="midNavLink" href="#media">
+                            رسانه
+                        </a>
+                    </li>
+                    <li class="midNavLink-li">
+                        <a class="midNavLink" href="#support">
+                            پشتیبانی
+                        </a>
+                    </li>
+                    <div class="blueUnderline"></div>
+                </ul>
+            </div>
+        </nav>
+        <section id="overview" class="overview">
+            <nav class="overviewNav">
+                <h2>نمای کلی</h2>
+                <ul class="overviewList">
+                    <li class="overviewLi">
+                        ابعاد
+                    </li>
+                    <li class="overviewLi">
+                        مشخصات
+                    </li>
+
+                    <li class="overviewLi">
+                        گالری
+                    </li>
+                    <div class="blueUnderline"></div>
+                </ul>
+            </nav>
+            <div class="overview_body">
+
+            </div>
+        </section>
+        <section id="features" class="features">
+            <nav class="featuresNav">
+                <h2>ویژگی ها</h2>
+                <ul class="featuresList">
+                    <li class="featuresLi">
+                        LHP
+                    </li>
+                    <li class="featuresLi">
+                        X-Frame
+                    </li>
+                    <li class="featuresLi">
+                        CPU
+                    </li>
+                    <li class="featuresLi">
+                        GPU
+                    </li>
+                    <li class="featuresLi">
+                        >600
+                    </li>
+                    <li class="featuresLi">
+                        ماژول ها
+                    </li>
+                    <li class="featuresLi">
+                        جهانی
+                    </li>
+                    <div class="blueUnderline"></div>
+                </ul>
+            </nav>
+            <div class="features_body">
+                <div class="features_img-wraper">
+                    <img class="features_img">
+                </div>
+                <div class="features_text">
+                    <h2></h2>
+                    <p class="features_description"></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div id="media" class="media">
+                <p class="media_descript">بررسی ها و پوشش رسانه ای</p>
+                <a href="#" class="media_name">مشاهده همه</a>
+            </div>
+            <div class="swiper_wraper">
+                <div class="swiper_body">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiperSlide">
+                                    <div class="swiperHeader">
+                                        <h3 class="swiperHeader_title">سخت افزار canucks</h3>
+                                        <p>پوشش رسانه ای</p>
+                                    </div>
+                                    <div class="slider_body">
+                                        <img class="sliderImg" src="./images/gamers-nexus-768x384.jpg">
+                                        <div class="swiperText">
+                                            <svg class="gbBlock gbBlock__down" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                    d="M9.4 20.111c-2.229 2.072-6.023 1.524-7.8-.67C-.503 16.85-.923 11.939 2.741 7.546c1.817-2.178 4.007-3.831 6.568-4.955l1.181 1.901c-3.643 1.765-6.365 4.158-6.751 8.17 1.644 0 3.007-.06 4.222.375 1.382.495 2.222 1.413 2.567 2.465.547 1.65.282 3.3-1.128 4.609zm13.207 0c-2.228 2.072-6.022 1.524-7.8-.67-2.103-2.591-2.522-7.502 1.141-11.895 1.818-2.178 4.008-3.831 6.569-4.955l1.181 1.901c-3.642 1.765-6.365 4.158-6.75 8.17 1.642 0 3.006-.06 4.221.375 1.383.495 2.223 1.413 2.567 2.465.546 1.65.282 3.3-1.129 4.609z" />
+                                            </svg>
+                                            <p class="swiperP">
+                                                بنابراین این بسیار جالب است، ما Computex 2023، در غرفه Streacom هستیم…..
+                                                این
+                                                یک مورد کاملاً غیرفعال است.
+                                            </p>
+                                            <svg class="gbBlock gbBlock__up" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                    d="M9.4 20.111c-2.229 2.072-6.023 1.524-7.8-.67C-.503 16.85-.923 11.939 2.741 7.546c1.817-2.178 4.007-3.831 6.568-4.955l1.181 1.901c-3.643 1.765-6.365 4.158-6.751 8.17 1.644 0 3.007-.06 4.222.375 1.382.495 2.222 1.413 2.567 2.465.547 1.65.282 3.3-1.128 4.609zm13.207 0c-2.228 2.072-6.022 1.524-7.8-.67-2.103-2.591-2.522-7.502 1.141-11.895 1.818-2.178 4.008-3.831 6.569-4.955l1.181 1.901c-3.642 1.765-6.365 4.158-6.75 8.17 1.642 0 3.006-.06 4.221.375 1.383.495 2.223 1.413 2.567 2.465.546 1.65.282 3.3-1.129 4.609z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiperSlide">
+                                    <div class="swiperHeader">
+                                        <h3 class="swiperHeader_title">نکسوس گیمرها</h3>
+                                        <p>پوشش رسانه ای</p>
+                                    </div>
+                                    <div class="slider_body">
+                                        <img class="sliderImg" src="./images/hardwarecanucks-768x384.gif">
+                                        <div class="swiperText">
+                                            <svg class="gbBlock gbBlock__down" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                    d="M9.4 20.111c-2.229 2.072-6.023 1.524-7.8-.67C-.503 16.85-.923 11.939 2.741 7.546c1.817-2.178 4.007-3.831 6.568-4.955l1.181 1.901c-3.643 1.765-6.365 4.158-6.751 8.17 1.644 0 3.007-.06 4.222.375 1.382.495 2.222 1.413 2.567 2.465.547 1.65.282 3.3-1.128 4.609zm13.207 0c-2.228 2.072-6.022 1.524-7.8-.67-2.103-2.591-2.522-7.502 1.141-11.895 1.818-2.178 4.008-3.831 6.569-4.955l1.181 1.901c-3.642 1.765-6.365 4.158-6.75 8.17 1.642 0 3.006-.06 4.221.375 1.383.495 2.223 1.413 2.567 2.465.546 1.65.282 3.3-1.129 4.609z" />
+                                            </svg>
+                                            <p class="swiperP">
+                                                خوب همه گی به گوش، ذهن =درحال منفجر شدن است! …. این یک کامپیوتکس بسیار
+                                                آهسته
+                                                بوده است اما تا به حال جالبترین ...
+                                            </p>
+                                            <svg class="gbBlock gbBlock__up" viewBox="0 0 24 24">
+                                                <path fill="currentColor"
+                                                    d="M9.4 20.111c-2.229 2.072-6.023 1.524-7.8-.67C-.503 16.85-.923 11.939 2.741 7.546c1.817-2.178 4.007-3.831 6.568-4.955l1.181 1.901c-3.643 1.765-6.365 4.158-6.751 8.17 1.644 0 3.007-.06 4.222.375 1.382.495 2.222 1.413 2.567 2.465.547 1.65.282 3.3-1.128 4.609zm13.207 0c-2.228 2.072-6.022 1.524-7.8-.67-2.103-2.591-2.522-7.502 1.141-11.895 1.818-2.178 4.008-3.831 6.569-4.955l1.181 1.901c-3.642 1.765-6.365 4.158-6.75 8.17 1.642 0 3.006-.06 4.221.375 1.383.495 2.223 1.413 2.567 2.465.546 1.65.282 3.3-1.129 4.609z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button swiper-button-next"></div>
+                        <div class="swiper-button swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="support" class="support">
+            <nav class="supportNav">
+                <h2>پشتیبانی</h2>
+                <ul class="supportList">
+                    <li class="supportLi">
+                        سوالات متداول
+                    </li>
+                    <li class="supportLi">
+                        دانلود ها
+                    </li>
+                    <div class="blueUnderline">
+
+                    </div>
+                </ul>
+            </nav>
+            <div class="support_body"></div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section class="shopify_wraper">
+            <div class="shopify">
+                <p class="shopify_descript">محصولات مرتبط، لوازم جانبی و قطعات</p>
+                <a href="#" class="shopify_name">در فروشگاه آنلاین ما مشاهده کنید</a>
+            </div>
+            <div class="shopify-buy__collection">
+                <div
+                    class="shopify-buy__collection-products shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product shopify-buy-frame shopify-buy-frame--product">
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="FC5 - Fanless ATX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="images/fc5s-opt-front-angle_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">FC5 - Fanless ATX Case</h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€279.00</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940428-0" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940428-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940428-1" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Feature</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940428-1" class="shopify-buy__option-select__select"
+                                        name="Feature" data-element="option.select">
+                                        <option selected="" value="Without Optical">Without Optical</option>
+                                        <option value="Optical Slot">Optical Slot</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="FC9 - Fanless M-ATX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="images/fc9b-opt-front-angle_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">FC9 - Fanless M-ATX Case
+                        </h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€279.00</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940430-0" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940430-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940430-1" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Feature</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940430-1" class="shopify-buy__option-select__select"
+                                        name="Feature" data-element="option.select">
+                                        <option selected="" value="Without Optical">Without Optical</option>
+                                        <option value="Optical Slot">Optical Slot</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="FC10 - Fanless ATX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img" src="images/fc10b-front-incline_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">FC10 - Fanless ATX Case
+                        </h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€349.00</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940433-0" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940433-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940433-1" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Front Panel</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940433-1" class="shopify-buy__option-select__select"
+                                        name="Front Panel" data-element="option.select">
+                                        <option selected="" value="Without Optical">Without Optical</option>
+                                        <option value="Optical Slot">Optical Slot</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940433-2" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Back Panel</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940433-2" class="shopify-buy__option-select__select"
+                                        name="Back Panel" data-element="option.select">
+                                        <option selected="" value="Full Height PCI (Standard)">Full Height PCI
+                                            (Standard)</option>
+                                        <option value="Half Height PCI (AO)">Half Height PCI (AO)</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="DB1 MAX - Fanless ITX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="images/ST-DB1S-MAX-1_1a30625b-bc89-47de-ae98-2cf7da258cad_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">DB1 MAX - Fanless ITX Case
+                        </h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€153.25</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940436-0"
+                                    class="shopify-buy__option-select__label visuallyhidden"
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940436-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                        <option value="Titanium">Titanium</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="FC8 - Fanless ITX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="https://cdn.shopify.com/s/files/1/0569/1002/0817/products/ST-FC8S-2_550x825.jpg?v=1647841275">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">FC8 - Fanless ITX Case</h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€187.30</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940438-0" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940438-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                        <option value="Titanium">Titanium</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940438-1" class="shopify-buy__option-select__label "
+                                    data-element="option.label">Feature</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940438-1" class="shopify-buy__option-select__select"
+                                        name="Feature" data-element="option.select">
+                                        <option selected="" value="Without Optical">Without Optical</option>
+                                        <option value="Optical Slot">Optical Slot</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button
+                                class="shopify-buy__btn  " data-element="product.button">Add to cart</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="DB4 - Fanless ITX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="images/ST-DB4S-1_c196e530-4947-489f-8a36-fec9e02c0630_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">DB4 - Fanless ITX Case</h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€356.00</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940441-0"
+                                    class="shopify-buy__option-select__label visuallyhidden"
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940441-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                        <option value="Titanium">Titanium</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                    <div class="has-image shopify-buy__layout-vertical shopify-buy__product">
+                        <div class="shopify-buy__product-img-wrapper" data-element="product.imgWrapper"><img
+                                alt="DB1 - Fanless ITX Case" data-element="product.img"
+                                class="shopify-buy__product__variant-img"
+                                src="images/ST-DB1S-1_bed488cd-b466-4ca5-b537-e1b49e176134_550x825.webp">
+                        </div>
+                        <h1 class="shopify-buy__product__title" data-element="product.title">DB1 - Fanless ITX Case</h1>
+                        <div class="shopify-buy__product__price" data-element="product.prices">
+                            <span class="visuallyhidden">Regular price&nbsp;</span>
+                            <span class="shopify-buy__product__actual-price "
+                                data-element="product.price">€131.00</span>
+                        </div>
+                        <div class="shopify-buy__product__variant-selectors" data-element="product.options">
+                            <div class="shopify-buy__option-select" data-element="option.option">
+                                <label for="Option-1728466940442-0"
+                                    class="shopify-buy__option-select__label visuallyhidden"
+                                    data-element="option.label">Color</label>
+                                <div class="shopify-buy__option-select-wrapper" data-element="option.wrapper">
+                                    <select id="Option-1728466940442-0" class="shopify-buy__option-select__select"
+                                        name="Color" data-element="option.select">
+                                        <option selected="" value="Black">Black</option>
+                                        <option value="Silver">Silver</option>
+                                        <option value="Titanium">Titanium</option>
+                                    </select>
+                                    <svg class="shopify-buy__select-icon" data-element="option.selectIcon"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 5.176l-9.086 9.353L3 5.176.686 7.647 12 19.382 23.314 7.647 21 5.176z">
+                                        </path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shopify-buy__btn-wrapper" data-element="product.buttonWrapper"><button disabled=""
+                                class="shopify-buy__btn shopify-buy__btn-disabled " data-element="product.button">Out of
+                                stock</button></div>
+                    </div>
+                </div><button class="shopify-buy__collection-pagination-button shopify-buy__btn ">Next page</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer_upperSection">
+            <div class="upperSection_div">
+                <h4 class="footer_titles">شرکت</h4>
+                <div class="footer_blueUnderlines"></div>
+                <ul class="upperSection_list">
+                    <li><a class="upperSection_links" href="#">درباره ما</a></li>
+                    <li><a class="upperSection_links" href="#">اخبار</a></li>
+                    <li><a class="upperSection_links" href="#">سیاست حفظ حریم خصوصی</a></li>
+                    <li><a class="upperSection_links" href="#">فروشگاه آنلاین</a></li>
+                </ul>
+            </div>
+            <div class="upperSection_div">
+                <h4 class="footer_titles">موارد پر طرفدار</h4>
+                <div class="footer_blueUnderlines"></div>
+                <div class="upperSection_list">
+                    <a class="upperSection_links" href="#">DA6 – Mini-ITX Case</a>/<a class="upperSection_links"
+                        href="#">SG10 – Fanless Gaming ...</a>/
+                    <a class="upperSection_links" href="#">DA2 – Mini-ITX Case</a>/<a class="upperSection_links"
+                        href="#"> HT4 – Thermal Riser</a>/
+                    <a class="upperSection_links" href="#"> DB4 – GPU Cooling ...</a>/<a class="upperSection_links"
+                        href="#">DB4 – Fanless Mini-ITX ...</a>/
+                    <a class="upperSection_links" href="#">FC10 – Fanless ATX ...</a>/<a class="upperSection_links"
+                        href="#">FC9 – Fanless Micro-ATX ...</a>/
+                    <a class="upperSection_links" href="#">BC1 V2 – Open ...</a>/<a class="upperSection_links"
+                        href="#">FC8 – Fanless Mini-ITX ...</a>/
+                    <a class="upperSection_links" href="#">FC5 – Fanless ATX ...</a>/<a class="upperSection_links"
+                        href="#">DB1 – Fanless Mini-ITX ...</a>/
+                </div>
+            </div>
+            <div class="upperSection_div">
+                <h4 class="footer_titles">لوازم جانبی مد روز</h4>
+                <div class="footer_blueUnderlines"></div>
+                <div class="upperSection_list">
+                    <a class="upperSection_links" href="#">VU1 – Dynamic Analogue ...</a>/<a class="upperSection_links"
+                        href="#">ZF240 – Fanless PSU</a>/
+                    <a class="upperSection_links" href="#">Nano160 – Fanless PSU</a>/<a class="upperSection_links"
+                        href="#"> HT4 – Thermal Riser</a>/
+                    <a class="upperSection_links" href="#"> DB4 – GPU Cooling ...</a>/<a class="upperSection_links"
+                        href="#">DB4 – CPU Cooling ...</a>/
+                    <a class="upperSection_links" href="#">Nano90 – Fanless PSU</a>/<a class="upperSection_links"
+                        href="#">DA2 – Tempered Glass ...</a>/
+                    <a class="upperSection_links" href="#">Flirc – Adaptive IR ...</a>/<a class="upperSection_links"
+                        href="#">UM2 – Universal CPU ...</a>/
+                </div>
+            </div>
+            <div class="upperSection_div">
+                <h4 class="footer_titles">شعبه های خرید</h4>
+                <div class="footer_blueUnderlines"></div>
+                <ul class="upperSection_list">
+                    <li><a class="upperSection_links" href="#">آمریکا</a></li>
+                    <li><a class="upperSection_links" href="#">آسیا</a></li>
+                    <li><a class="upperSection_links" href="#">اروپا</a></li>
+                    <li><a class="upperSection_links" href="#">اقیانوسیه</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer_lowerSection">
+            <div>© 2010 - 2024 Streacom. All rights reserved.</div>
+            <div class="lowerSection_linksWraper">
+                <a class="lowerSection_links" href="https://t.me/Streacom" target="_blank">
+                    <svg fill="#8e8e8e" width="2rem" height="2rem" viewBox="0 0 20 20" stroke="#8e8e8e">
+                        <g>
+                            <path
+                                d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M14.4415206,6 C14.060553,6.00676048 13.476055,6.20741135 10.663148,7.36249773 C9.67796175,7.7670526 7.70897661,8.60437935 4.75619264,9.87447795 C4.27670659,10.0627254 4.02553067,10.2468857 4.00266485,10.4269588 C3.95876487,10.7726802 4.46291296,10.8803081 5.09723696,11.0838761 C5.61440201,11.2498453 6.31007997,11.4440124 6.67173438,11.4517262 C6.99978943,11.4587234 7.36593635,11.3251987 7.77017511,11.051152 C10.5290529,9.21254679 11.9531977,8.28322679 12.0426094,8.26319203 C12.1056879,8.24905787 12.1930992,8.23128593 12.2523244,8.28325656 C12.3115496,8.33522719 12.3057275,8.43364956 12.299454,8.46005377 C12.2492926,8.67117474 9.65764825,10.998457 9.50849738,11.1513987 L9.43697409,11.2233057 C8.88741493,11.7661123 8.33196049,12.1205055 9.290333,12.7440164 C10.155665,13.3069957 10.6592923,13.6661378 11.5507686,14.2430701 C12.1204738,14.6117635 12.5671299,15.0489784 13.1553348,14.9955401 C13.4259939,14.9709508 13.705567,14.7196888 13.8475521,13.9703127 C14.1831052,12.1993135 14.8426779,8.36209709 14.9951103,6.78087197 C15.0084653,6.64233621 14.9916649,6.46503787 14.9781732,6.38720805 C14.9646815,6.30937823 14.9364876,6.19848702 14.8340164,6.11639754 C14.7126597,6.01917896 14.5253109,5.99867765 14.4415206,6 Z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+                <a class="lowerSection_links" href="https://www.facebook.com/Streacom/" target="_blank">
+                    <svg fill="#8e8e8e" width="2rem" height="2rem" viewBox="0 0 32 32" stroke="#8e8e8e">
+                        <g>
+                            <path
+                                d="M30.996 16.091c-0.001-8.281-6.714-14.994-14.996-14.994s-14.996 6.714-14.996 14.996c0 7.455 5.44 13.639 12.566 14.8l0.086 0.012v-10.478h-3.808v-4.336h3.808v-3.302c-0.019-0.167-0.029-0.361-0.029-0.557 0-2.923 2.37-5.293 5.293-5.293 0.141 0 0.281 0.006 0.42 0.016l-0.018-0.001c1.199 0.017 2.359 0.123 3.491 0.312l-0.134-0.019v3.69h-1.892c-0.086-0.012-0.185-0.019-0.285-0.019-1.197 0-2.168 0.97-2.168 2.168 0 0.068 0.003 0.135 0.009 0.202l-0.001-0.009v2.812h4.159l-0.665 4.336h-3.494v10.478c7.213-1.174 12.653-7.359 12.654-14.814v-0z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+                <a class="lowerSection_links" href="https://www.instagram.com/streacom/" target="_blank">
+                    <svg fill="#8e8e8e" width="3rem" height="3rem" viewBox="0 0 32 32">
+                        <g>
+                            <path
+                                d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z">
+                            </path>
+                            <path
+                                d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+                <a class="lowerSection_links" href="https://www.youtube.com/Streacom" target="_blank">
+                    <svg fill="rgba(255,255,255,0.5)" width="3rem" height="3rem" viewBox="0 0 32 32"
+                        stroke="rgba(255,255,255,0.5)">
+                        <g>
+                            <path
+                                d="M24.325 8.309s-2.655-.334-8.357-.334c-5.517 0-8.294.334-8.294.334A2.675 2.675 0 0 0 5 10.984v10.034a2.675 2.675 0 0 0 2.674 2.676s2.582.332 8.294.332c5.709 0 8.357-.332 8.357-.332A2.673 2.673 0 0 0 27 21.018V10.982a2.673 2.673 0 0 0-2.675-2.673zM13.061 19.975V12.03L20.195 16l-7.134 3.975z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+                <a class="lowerSection_links" href="https://www.linkedin.com/company/streacom/" target="_blank">
+                    <svg fill="rgba(255,255,255,0.5)" height="2rem" width="2rem" version="1.1"
+                        viewBox="-143 145 512 512" stroke="rgba(255,255,255,0.5)">
+                        <g>
+                            <path
+                                d="M-143,145v512h512V145H-143z M41.4,508.1H-8.5V348.4h49.9V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7 c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6 c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1 c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="js/rem.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/nav.jquery.min.js"></script>
+    <script>
+        $('.nav').nav();
+    </script>
+    <script src='viewer/sprintes.js' type='text/javascript'></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
